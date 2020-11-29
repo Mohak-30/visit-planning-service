@@ -1,0 +1,8 @@
+services: 
+  db: 
+    container_name: db
+    image: "mongo:latest"
+    ports: 
+      - "27017:27017"
+    volumes:
+      - D:/mongo/data:/data/db
